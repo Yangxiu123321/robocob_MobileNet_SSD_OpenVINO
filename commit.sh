@@ -8,8 +8,8 @@ echo -e "\033[32m 修改了的文件: \033[0m"
 git status
 git add -A
 #echo "请输入cimmit的文字"
-read -p "请输入commit文本:" $a
-git commit -m "shell提交:$a"
+read -p "请输入commit文本:" commitCM
+git commit -m "$commitCM"
 
 #echo "是否需要提交(y/N)"
 read -p "是否需要提交(y/N):" choose
